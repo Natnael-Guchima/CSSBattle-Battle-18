@@ -1,0 +1,110 @@
+<div class = 'face-shape'>
+  <div class = 'left-face'>
+    <div class = 'mouth'> </div>
+  </div>
+</div>
+
+<div class = 'mid-side-hair right'> </div>
+<div class = 'mid-side-hair left'> </div>
+<div class = 'mid-side-hair ear-hair left-ear-hair'> </div>
+<div class = 'mid-side-hair ear-hair right-ear-hair'> </div>
+
+<div class = 'center-h'>
+<div class = 'center-hair'>
+  <div class = 'center-hair to--left'> </div></div>
+</div>
+
+
+
+  
+
+<style>
+  body{
+    background: #161616;
+  }
+  .face-shape{
+    width: 78px;
+    height:70px;
+    background: #FFDEB9;
+    position: absolute; 
+    bottom: 85px;
+    left: 161px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .left-face{
+    width: 50%;
+    height: 100%;
+    background: #FFFFFF;
+    position: relative; 
+  }
+  
+  .mouth{
+    width: 20px;
+    height: 10px;
+    background: #161616;
+    position: absolute;
+    right: -10px;
+    bottom: 10;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;;
+  }
+  
+  .mid-side-hair{
+    width: 30px;
+    height: 60px;
+    background: #EBAE11;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    position: absolute; 
+    bottom: 120;
+    
+  }
+  
+  .right{
+    left: 160;
+    transform: rotate(-35deg)
+  }
+  
+   .left{
+    right: 160;
+    transform: rotate(215deg)
+  }
+  
+  .ear-hair{
+    top: 144px;
+    z-index: -1;
+  }
+  .left-ear-hair{
+    left: 153;
+    transform: rotate(-80deg);
+  }
+  
+  .right-ear-hair{
+    right: 153;
+    transform: rotate(260deg)
+  }
+  
+  .center-h{
+    position: absolute; 
+    top: 72;
+    left: 117;
+  }
+  
+  .center-hair{
+   height: 100px;
+   width: 100px; 
+   background: transparent;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+  }
+  
+  .to--left{
+    right: -65;
+    background: #EBAE11;
+  }
+  
+</style>
