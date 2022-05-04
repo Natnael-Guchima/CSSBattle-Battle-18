@@ -1,0 +1,83 @@
+
+<div class = 'top-triangle-'></div>
+<div class = 'outter-eye left'>
+  <div class = 'inner-eye'>
+    <div class = 'eye-shadow'> </div>
+  </div>
+  <div class = 'blen'> </div>
+</div>
+<div class = 'outter-eye right'>
+  <div class = 'inner-eye'>
+    <div class = 'eye-shadow'> </div>
+  </div>
+  <div class = 'blen'> </div>
+</div>
+<style>
+
+  *{
+    position: absolute;
+    margin:0;
+  }
+
+  body{
+    background: #BAC7CE;
+  }
+
+  .outter-eye{
+    width: 120px;
+    height: 120px;
+    background: #000000;
+    top: 130px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left{
+    left: 30px; 
+    transform: rotate(-15deg);
+  }
+  .right{
+    left: 250;
+    transform: rotate(-75deg)
+  }
+  .right .inner-eye {
+    transform: rotate(60deg)
+  }
+
+  .top-triangle- {
+    width: 140;
+    height: 140;
+    background: #475862;
+    position: absolute;
+    top:-78;
+    left:130;
+    transform: rotate(45deg);
+  }
+  .inner-eye{
+    width: 100px;
+    height: 100px;
+    background:#5A6042;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .eye-shadow{
+    width: 100px;
+    height: 100px; 
+    background: #868A64;
+    border-radius: 50%;
+    position: absolute; 
+    top: 14;
+    left:-4;
+  }
+  .blen{
+width: 30px;
+height: 30px;
+background: #4E2B24;
+border-radius: 50%;
+border: 5px solid #000000;
+  }
+</style>
