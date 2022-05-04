@@ -1,0 +1,79 @@
+<div class = 'outter-cirlce'>
+  <div class = 'inner-half-circle bottom--circle'>
+  </div>
+  <div class = 'inner-half-circle top--left'> 
+  </div>
+  <div class = 'inner-half-circle top--right'> </div>
+  <div class = 'inner-circle'> 
+    <div class = 'inner-orange'> 
+    </div> 
+  </div>
+</div>
+<style>
+  body{
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .outter-cirlce {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    background: #A22015;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .inner-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-half-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid #000000;
+    box-sizing: border-box;
+    background: transparent;
+    position: absolute;
+    
+  }
+  
+  .bottom--circle{
+    bottom: -40px;
+  }
+  
+  .top--left{
+    top: 2px;
+    left: -30;
+    
+  }
+  
+  .top--right{
+    right: -30px;
+    top: 2px;
+  }
+  
+  .inner-orange{
+    width: 70px;
+    height: 70px;
+    background: transparnt;
+    border: 10px solid #E96A23;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+</style>
