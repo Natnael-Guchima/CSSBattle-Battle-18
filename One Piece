@@ -1,0 +1,149 @@
+<div class = 'bone left--top'>
+    <div class = 'circle__bone'>
+    </div>
+  <div class = 'circle__bone bone--1'>
+    </div>
+  <div class = 'bone__bar'> </div>
+  </div>
+
+<div class = 'bone right--top'>
+    <div class = 'circle__bone'>
+    </div>
+  <div class = 'circle__bone bone--1'>
+    </div>
+  <div class = 'bone__bar'> </div>
+  </div>
+
+<div class = 'bone right--bottom'>
+    <div class = 'circle__bone'>
+    </div>
+  <div class = 'circle__bone bone--1'>
+    </div>
+  <div class = 'bone__bar'> </div>
+  </div>
+
+<div class = 'bone left--bottom'>
+    <div class = 'circle__bone'>
+    </div>
+  <div class = 'circle__bone bone--1'>
+    </div>
+  <div class = 'bone__bar'> </div>
+  </div>
+
+<div class = 'scull'>
+  <div class = 'eyes left--eye'> 
+  </div>
+  
+  <div class = 'eyes right--eye'> </div>
+</div>
+<div class = 'teeth'>
+  <div class = 'one'></div>
+<div class = 'one'></div>
+  <div class = 'one'></div>
+</div>
+<style>
+  body{
+    background: #000000;
+    position: relative;
+  }
+  .scull {
+    position: absolute;
+    left: 120px;
+    top: 103px;
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    position: relative;
+  }
+  
+  .eyes{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute; 
+    top:50px;
+    
+  }
+  
+  .left--eye{
+    left: 20px;
+    transform: translatey(-50%) rotate(-45deg);
+  }
+  
+  .right--eye{
+    right: 20px;
+    transform: translatey(-50%) rotate(45deg);
+  }
+  
+   .circle__bone{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FFFFFF;
+  }
+  
+  .bone{
+    position: relative;
+  }
+  
+  .bone--1{
+    position: absolute; 
+    top:0; 
+    left: 15px;
+  }
+ 
+  .bone__bar{
+    height: 20px;
+    width:20px; 
+    background: #FFFFFF;
+    position: absolute; 
+    left: 10px; 
+    top:15;
+  }
+  
+  .left--top{
+    transform: rotate(-50deg);
+    position: absolute;
+    left: 90px;
+    top: 90px; 
+  }
+  
+  .right--top{
+    transform: rotate(50deg);
+    position: absolute;
+    right: 95px;
+    top: 80px;  
+  }
+  
+   .right--bottom{
+    transform: rotate(135deg);
+    position: absolute;
+    right: 85px;
+    bottom: 70px;
+  }
+  
+  .left--bottom{
+    transform: rotate(-130deg);
+    position: absolute;
+    left: 95px;
+    bottom: 65px;
+  }
+  
+  .teeth{
+    display: flex;
+    flex-direction: row; 
+    column-gap: 5px;
+    position: absolute;
+    bottom: 50px; 
+    left: 170px;
+  }
+  .one{
+    width: 15px;
+    height: 20px;
+    background: #FFFFFF;
+  }
+  
+ 
+</style>
