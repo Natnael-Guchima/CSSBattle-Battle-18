@@ -1,0 +1,55 @@
+<div class = 'half-heart heart--left'></div>
+<div class = 'half-heart heart--right'>
+</div>
+
+  <div class = 'half__bite'> </div>
+<div class = 'half__bite bottom'> </div>
+<div class = 'tree'> </div>
+
+<style>
+  body{
+    background: #000000;
+    margin:0;
+    
+  }
+  .half-heart{
+    width: 100px;
+    height: 120px;
+    background: #D4392D;
+    position: absolute; 
+    top: 90px;
+    border-radius: 50%;
+    
+  }
+  .heart--left{
+    transform: rotate(25deg);
+    left:180px;
+  }
+  .heart--right{
+  left: 120px; 
+  transform: rotate(-25deg);
+  }
+  .half__bite{
+    height: 55px; 
+    width: 50px;
+    background: black;
+    border-radius: 50%;
+    position: absolute; 
+    top: 100px;
+    left: 100px;
+  }
+  .bottom{
+    top: 140px; 
+    background: #000000; 
+  }
+  
+  .tree{
+    width: 10px;
+    height: 50px;
+    background: #D4392D;
+    position: absolute; 
+    top: 70px;
+    left: 195px;
+  }
+</style>
+
