@@ -1,0 +1,94 @@
+<div class = 'circle inner--circle'></div>
+<div class = 'circle outter--circle'></div>
+<div class = 'right-wing'></div>
+<div class = 'rod long-rod'></div>
+<div class = 'rod short-rod'></div>
+<div class = 'single-wing first-wing'></div>
+<div class = 'single-wing second-wing'></div>
+<div class = 'single-wing third-wing'></div>
+
+<style>
+  *{
+    box-sizing:border-box;
+    
+  }
+  body{
+    background: #161616;
+    margin: 0;
+  }
+  .circle {
+    border-radius: 50%;
+    border: 5px solid #A22015;
+    top: 150px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .outter--circle{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    position: absolute;
+  }
+  .inner--circle{
+    background: #161616;
+    width:30px;
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+  }
+  .right-wing{
+    height: 40px;
+    width: 80px;
+    background:#E96A23; 
+    position: absolute;
+    top: 149px; 
+    left: 200px; 
+    transform: translateY(-50%);
+    border-top-right-radius: 40px 40px;
+    border-bottom-right-radius: 5px;
+    z-index: -3;
+  }
+  .rod{
+     position: absolute;
+    left: 200px;
+    top:150px;
+    transform: translateX(-50%);
+  }
+  .long-rod{
+    height: 150px;
+    width: 20px;
+    background-color: #E96A23;
+    z-index: -4;
+  }
+  .short-rod{
+    height: 53px;
+    width: 30px;
+    background-color: #A22015;
+    border-radius: 10px;
+    z-index: -3;
+  }
+
+  .single-wing{
+    position: absolute;
+    height: 13px;
+    width: 60px;
+    background: #FFFFFF;
+    border-bottom-left-radius: 20px;
+  }
+  .first-wing{
+    top: 132px;
+    left: 130px;
+  }
+  .second-wing{
+    top: 143px;
+    left: 145px;
+  }
+  
+  .third-wing{
+    top: 155px;
+    left: 158;
+  }
+  
+  
+</style>
